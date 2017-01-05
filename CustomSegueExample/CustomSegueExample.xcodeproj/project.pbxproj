@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		05DB71541E1EBD3C00781665 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DB71531E1EBD3C00781665 /* AppDelegate.swift */; };
-		05DB71561E1EBD3C00781665 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DB71551E1EBD3C00781665 /* ViewController.swift */; };
+		05DB71561E1EBD3C00781665 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DB71551E1EBD3C00781665 /* AppViewController.swift */; };
 		05DB71581E1EBD3C00781665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DB71571E1EBD3C00781665 /* Assets.xcassets */; };
 		05DB715B1E1EBD3C00781665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05DB71591E1EBD3C00781665 /* Main.storyboard */; };
 		05DB71661E1EBD3C00781665 /* CustomSegueExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DB71651E1EBD3C00781665 /* CustomSegueExampleTests.swift */; };
 		05DB71711E1EBD3C00781665 /* CustomSegueExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DB71701E1EBD3C00781665 /* CustomSegueExampleUITests.swift */; };
+		05DB717F1E1EBEC500781665 /* AppWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DB717E1E1EBEC500781665 /* AppWindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* Begin PBXFileReference section */
 		05DB71501E1EBD3C00781665 /* CustomSegueExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSegueExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DB71531E1EBD3C00781665 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05DB71551E1EBD3C00781665 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05DB71551E1EBD3C00781665 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
 		05DB71571E1EBD3C00781665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05DB715A1E1EBD3C00781665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05DB715C1E1EBD3C00781665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		05DB716C1E1EBD3C00781665 /* CustomSegueExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSegueExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DB71701E1EBD3C00781665 /* CustomSegueExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegueExampleUITests.swift; sourceTree = "<group>"; };
 		05DB71721E1EBD3C00781665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05DB717E1E1EBEC500781665 /* AppWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppWindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				05DB71531E1EBD3C00781665 /* AppDelegate.swift */,
-				05DB71551E1EBD3C00781665 /* ViewController.swift */,
+				05DB717E1E1EBEC500781665 /* AppWindowController.swift */,
+				05DB71551E1EBD3C00781665 /* AppViewController.swift */,
 				05DB71571E1EBD3C00781665 /* Assets.xcassets */,
 				05DB71591E1EBD3C00781665 /* Main.storyboard */,
 				05DB715C1E1EBD3C00781665 /* Info.plist */,
@@ -255,7 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05DB71561E1EBD3C00781665 /* ViewController.swift in Sources */,
+				05DB71561E1EBD3C00781665 /* AppViewController.swift in Sources */,
+				05DB717F1E1EBEC500781665 /* AppWindowController.swift in Sources */,
 				05DB71541E1EBD3C00781665 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

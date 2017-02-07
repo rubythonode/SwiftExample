@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05511BBE1E4955F800F3BE90 /* SegueFacdeSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05511BBD1E4955F800F3BE90 /* SegueFacdeSlide.swift */; };
 		05DB71541E1EBD3C00781665 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DB71531E1EBD3C00781665 /* AppDelegate.swift */; };
 		05DB71561E1EBD3C00781665 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DB71551E1EBD3C00781665 /* AppViewController.swift */; };
 		05DB71581E1EBD3C00781665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DB71571E1EBD3C00781665 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05511BBD1E4955F800F3BE90 /* SegueFacdeSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueFacdeSlide.swift; sourceTree = "<group>"; };
 		05DB71501E1EBD3C00781665 /* CustomSegueExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSegueExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DB71531E1EBD3C00781665 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05DB71551E1EBD3C00781665 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				05DB71531E1EBD3C00781665 /* AppDelegate.swift */,
 				05DB717E1E1EBEC500781665 /* AppWindowController.swift */,
 				05DB71551E1EBD3C00781665 /* AppViewController.swift */,
+				05511BBD1E4955F800F3BE90 /* SegueFacdeSlide.swift */,
 				05DB71571E1EBD3C00781665 /* Assets.xcassets */,
 				05DB71591E1EBD3C00781665 /* Main.storyboard */,
 				05DB715C1E1EBD3C00781665 /* Info.plist */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05DB71561E1EBD3C00781665 /* AppViewController.swift in Sources */,
+				05511BBE1E4955F800F3BE90 /* SegueFacdeSlide.swift in Sources */,
 				05DB717F1E1EBEC500781665 /* AppWindowController.swift in Sources */,
 				05DB71541E1EBD3C00781665 /* AppDelegate.swift in Sources */,
 			);
@@ -500,6 +504,7 @@
 				05DB71771E1EBD3C00781665 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05DB71781E1EBD3C00781665 /* Build configuration list for PBXNativeTarget "CustomSegueExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +513,7 @@
 				05DB717A1E1EBD3C00781665 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05DB717B1E1EBD3C00781665 /* Build configuration list for PBXNativeTarget "CustomSegueExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +522,7 @@
 				05DB717D1E1EBD3C00781665 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

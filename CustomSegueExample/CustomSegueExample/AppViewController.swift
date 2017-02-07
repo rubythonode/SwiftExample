@@ -10,6 +10,8 @@ import Cocoa
 
 class AppViewController: NSViewController {
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,6 +26,13 @@ class AppViewController: NSViewController {
         }
     }
 
+    @IBAction func actionDoSegue1(_ sender: Any) {
+        self.performSegue(withIdentifier: "Test1", sender: self)
+    }
+    
+    @IBAction func actionDoSegue2(_ sender: Any) {
+        self.performSegue(withIdentifier: "Test2", sender: self)
+    }
 
 }
 

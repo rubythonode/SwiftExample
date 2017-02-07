@@ -25,13 +25,26 @@ class SegueFacdeSlide: NSStoryboardSegue {
                 destination.view.alphaValue = 0
                 
                 if(naviView.subviews.count != 0){
+                    
+                    
                     NSAnimationContext.beginGrouping()
                     NSAnimationContext.current().duration = 1.0
+                    NSAnimationContext.current().completionHandler = { () -> Void in
+                        naviView.subviews[0].removeFromSuperview()
+                        naviView.addSubview(destination.view)
+                        
+                        NSAnimationContext.beginGrouping()
+                        NSAnimationContext.current().duration = 1.0
+                        naviView.subviews[0].animator().frame.origin.x = 0
+                        naviView.subviews[0].animator().alphaValue = 1
+                        NSAnimationContext.endGrouping()
+                    }
+
                     naviView.subviews[0].animator().frame.origin.x = naviView.frame.width
                     naviView.subviews[0].animator().alphaValue = 0
                     NSAnimationContext.endGrouping()
-                  
-                    naviView.subviews[0].removeFromSuperview()
+                 
+                    return
                 }
                 
                 naviView.addSubview(destination.view)
@@ -41,9 +54,8 @@ class SegueFacdeSlide: NSStoryboardSegue {
                 naviView.subviews[0].animator().frame.origin.x = 0
                 naviView.subviews[0].animator().alphaValue = 1
                 NSAnimationContext.endGrouping()
-                
+  
             }
         }
-
     }
 }

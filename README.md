@@ -4,6 +4,7 @@
 
 *Manual Segue Example (Popover, Sheet, Show, Modal)
 
-##CustomSegueExample
+##CustomSegueExample1
 
-*Not update yet
+*Slide right to left example
+
